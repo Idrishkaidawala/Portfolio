@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idrish Yusuf Kaidawala | Resume</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .resume-container {
+            max-width: 900px;
+            margin: 100px auto 50px auto;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            padding: 4rem;
+            box-shadow: var(--glass-shadow);
+        }
+        .resume-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 2rem;
+        }
+        .resume-header h1 {
+            font-size: 2.5rem;
+            color: var(--accent-primary);
+            margin-bottom: 0.5rem;
+        }
+        .resume-section {
+            margin-bottom: 2.5rem;
+        }
+        .resume-section h2 {
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent-secondary);
+            padding-left: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .job { margin-bottom: 2rem; }
+        .job-title { font-weight: 600; font-size: 1.2rem; color: var(--text-main); }
+        .job-date { color: var(--accent-primary); font-size: 0.95rem; float: right; font-weight: 500; }
+        .job-company { color: var(--text-muted); font-style: italic; margin-bottom: 1rem; }
+        .job-desc { list-style: square; padding-left: 1.5rem; color: var(--text-muted); }
+        .job-desc li { margin-bottom: 0.5rem; }
+        .skills-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;
+        }
+        .skill-category strong {
+            color: var(--accent-primary);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .summary-text {
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+    <div class="glass-orbs orb-1"></div>
+    <div class="glass-orbs orb-2"></div>
+
+    <nav class="navbar glass-effect">
+        <a href="index.html" class="logo">Idrish<span>.</span>Kaidawala</a>
+        <div class="nav-links">
+            <a href="index.html" class="btn btn-sm btn-outline"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+        </div>
+    </nav>
+
+    <main class="resume-container slide-up">
+        
+        <div class="resume-header">
+            <h1>Idrish Yusuf Kaidawala</h1>
+            <p>1 Vanwart Drive, Scarborough, ON</p>
+            <p><i class="fas fa-phone"></i> +1 (647)-461-8096 | <a href="mailto:kaidawalaIdrish53@gmail.com" style="color:var(--text-main);"><i class="fas fa-envelope"></i> kaidawalaIdrish53@gmail.com</a> | <a href="https://github.com/Idrishkaidawala" target="_blank" style="color:var(--text-main);"><i class="fab fa-github"></i> github.com/Idrishkaidawala</a></p>
+        </div>
+
+        <div class="resume-section">
+            <h2>Professional Summary</h2>
+            <p class="summary-text">Highly motivated Software Developer and Data Analyst bridging the gap between deep analytical insights and robust software engineering. Combining an intensive academic background in Computer Programming and Data Analysis (featuring Python, MERN stack, and Machine Learning) with strong real-world operational experience in logistics and team leadership. Proven track record of architecting full-stack e-commerce systems, deploying predictive data models, and optimizing complex inventory workflows.</p>
+        </div>
+
+        <div class="resume-section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Data Science & Analytics</strong>
+                    <p class="summary-text">Python, Pandas, Machine Learning, Data Analytics & Reporting, Data Cleaning, Data Wrangling, Data Visualization, Statistical Analysis, SQL Querying, Predictive Modeling.</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Software Development</strong>
+                    <p class="summary-text">Full-Stack Web Development, Node.js, Express, React, HTML5/CSS3, JavaScript (ES6+), Android Application Development (Java/Kotlin), GraphQL APIs, MongoDB Atlas, DevOps/Git.</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Operational & Workflow Operations</strong>
+                    <p class="summary-text">Process Improvement, Inventory Management, Workflow Optimization, System Architecture, Database Management, Performance Metrics tracking.</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Professional & Team Traits</strong>
+                    <p class="summary-text">Cross-functional Teamwork, Agile/Scrum Collaboration, Mentorship, Tech Documentation, Problem Solving, High-pressure workflow management.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h2>Academic Software & Data Experience</h2>
+            
+            <div class="job">
+                <span class="job-date">Jan 2026 – Present</span>
+                <div class="job-title">Full-Stack Developer (Capstone Project)</div>
+                <div class="job-company">Point Seven Coffee Digital Integration</div>
+                <ul class="job-desc">
+                    <li>Engineered a fully responsive, visually striking e-commerce storefront utilizing modern web tools to handle dynamic cart updates and seamless checkout functionalities.</li>
+                    <li>Developed a custom native Android mobile application designed specifically to track warehouse inventory metrics and route online e-commerce demands in real-time.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <span class="job-date">Fall 2025</span>
+                <div class="job-title">Python Data Analyst</div>
+                <div class="job-company">Academic Machine Learning Integrations</div>
+                <ul class="job-desc">
+                    <li>Conducted deep exploratory data analysis (EDA) pipeline utilizing Python and Pandas to clean, wrangle, and interpret complex datasets.</li>
+                    <li>Trained and evaluated predictive machine learning models to forecast data trends, delivering statistical presentations and reports on outcome viability.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <span class="job-date">Fall 2025</span>
+                <div class="job-title">Backend Architecture Developer</div>
+                <div class="job-company">Employee Management System API</div>
+                <ul class="job-desc">
+                    <li>Built a secure, scalable GraphQL API over a Node.js/Express framework linked to a MongoDB Atlas cluster.</li>
+                    <li>Designed custom Mongoose schemas equipped with complex asynchronous validation middleware for strict user authentication and data encryption.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h2>Operational Work Experience</h2>
+            
+            <div class="job">
+                <span class="job-date">Dec '24 – Present</span>
+                <div class="job-title">Lead Cook</div>
+                <div class="job-company">Dspot Dessert Cafe | Toronto, ON</div>
+                <ul class="job-desc">
+                    <li>Operate POS systems and resolve customer inquiries while maintaining workflow optimization during peak demand.</li>
+                    <li>Oversee weekly inventory management, maintaining pinpoint stock accuracy and preparation protocols.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <span class="job-date">Sept '23 – April '24</span>
+                <div class="job-title">Warehouse Associate</div>
+                <div class="job-company">Healthy Planet | Scarborough, ON</div>
+                <ul class="job-desc">
+                    <li>Streamlined sorting processes and inventory management, directly contributing to the seamless flow of goods within a high-volume warehouse.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <span class="job-date">April '24 – Dec '24</span>
+                <div class="job-title">Sorter</div>
+                <div class="job-company">Staples | Scarborough, ON</div>
+                <ul class="job-desc">
+                    <li>Accurately organized products for distribution, improving documented inventory accuracy by 12% and reducing handling latency by 18%.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h2>Education & Certifications</h2>
+            
+            <div class="job">
+                <span class="job-date">Sep '23 — Present</span>
+                <div class="job-title">Computer Programming and Data Analysis</div>
+                <div class="job-company">George Brown College | Toronto, Canada</div>
+                <p class="job-desc" style="list-style: none; padding-left: 0;">Comprehensive specialization in programming languages, advanced data analysis techniques, software development algorithms, machine learning integrations, and database architecture.</p>
+            </div>
+            
+            <div class="job">
+                <span class="job-date">Oct 13, 2022</span>
+                <div class="job-title">Job Oriented Data Science Course</div>
+                <div class="job-company">USB Coaching Institute in Collaboration with IBM</div>
+                <p class="job-desc" style="list-style: none; padding-left: 0;">Successfully completed certified Data Science training program (ISO 9001:2015).</p>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.querySelector('.resume-container');
+            setTimeout(() => container.classList.add('visible'), 100);
+        });
+    </script>
+</body>
+</html>
